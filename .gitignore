@@ -1,0 +1,24 @@
+# secrets & environment
+.env
+storage/.dev_secret
+
+# runtime data
+storage/db/
+storage/documents/
+storage/uploads/
+*.db
+*.db-wal
+*.db-shm
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# os / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
